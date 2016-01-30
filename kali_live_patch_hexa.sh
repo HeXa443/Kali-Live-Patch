@@ -86,6 +86,7 @@ y)	clear;
 	read -p "Use apt-get dist-upgrade?  :" dist;
 	read -p "Start postgresql service?  :" postgresql;
 	read -p "Download OpenVAS  :?" getopenvas;
+	read -p "Download whois  :?" whois;
 	read -p "Run the OpenVAS-Setup? (taking 30min)  :" setupopenvas;;
 n) exit;;
 *) echo "Invalid input. Please type y or n!";;
@@ -110,6 +111,7 @@ echo "apt-get upgrade: $upgrade"
 echo "apt-get dist-upgrade: $dist"
 echo "Starting postgresql service: $postgresql"
 echo "Downloading OpenVAS: $getopenvas"
+echo "Downloading whois: $whois"
 echo "Do a Full OpenVAS-Setup: $setupopenvas"
 echo ""
 echo ""
@@ -232,6 +234,22 @@ case $getopenvas in
 	    echo "";
 	    echo "";
 	    echo "\033[32mOpenVAS installed!\033[0m";
+	    echo "Moving to the next step...";
+            sleep 3;;
+	n)  ;;
+	*) echo "Invalid input. Type y or n!" ;;
+esac
+
+
+case $getopenvas in
+	y)  clear;
+	    echo "\033[35m Start downloading whois... \033[0m";
+	    echo "";
+	    echo "";
+	    apt-get install -y whois
+	    echo "";
+	    echo "";
+	    echo "\033[32mWhoIs installed!\033[0m";
 	    echo "Moving to the next step...";
             sleep 3;;
 	n)  ;;
