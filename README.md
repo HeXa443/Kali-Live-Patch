@@ -6,10 +6,11 @@ Kali Live Patch
 Offical Source:
 https://github.com/HeXa443/Kali-Live-Patch.git
 
-Youtube Link (Click image):
-[![ScreenShot](https://raw.github.com/HeXa443/Kali-Live-Patch/blob/master/github-youtube-link-kali-patch.png)](https://youtu.be/N9_-9MvFftM)
 
-Hello Everyone!
+![alt tag](https://github.com/HeXa443/Kali-Live-Patch/blob/master/github-youtube-link-kali-patch.png)
+
+
+
 A simple and quick Bash script which can get easy modified.
 Speed up your Kali installations / starts and costumize like you want.
 
