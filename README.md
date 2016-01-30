@@ -1,10 +1,13 @@
 Kali Live Patch
-
  ------------
 --OpenSource--
  ------------
+
+Offical Source:
 https://github.com/HeXa443/Kali-Live-Patch.git
 
+Youtube Link (Click image):
+[![ScreenShot](https://raw.github.com/HeXa443/Kali-Live-Patch/blob/master/github-youtube-link-kali-patch.png)](https://youtu.be/N9_-9MvFftM)
 
 Hello Everyone!
 A simple and quick Bash script which can get easy modified.
@@ -20,7 +23,3 @@ Installation:
 Won't work?
 -Try to use: "chmod +x kali_live_patch_hexa.sh" in the directory of the file
 
-
-Short Demo Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N9_-9MvFftM" frameborder="0" allowfullscreen></iframe>
