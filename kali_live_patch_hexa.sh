@@ -1,7 +1,7 @@
-#	Script written by: HeXaeL (Switzerland) in 2016
+#
 #	Contact: hexa@anonymousspeech.com
 #	https://github.com/HeXa443/Kali-Live-Patch
-#		
+#	Shell-Script from HeXaeL (2016)
 #
 #	>OpenSource<
 #
