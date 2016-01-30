@@ -1,6 +1,6 @@
 #	Script written by: HeXaeL (Switzerland) in 2016
 #	Contact: hexa@anonymousspeech.com
-#	GitHub:
+#	https://github.com/HeXa443/Kali-Live-Patch
 #		
 #
 #	>OpenSource<
@@ -59,8 +59,8 @@ echo "It's very powerfull tool for using Kali-Live. All the basic steps after st
 echo "will be done by this script. At the start of the script it will ask you for each step and"
 echo "after that it will do it from self."
 echo ""
-echo ""
-echo ""
+echo "Offical Link"
+echo "https://github.com/HeXa443/Kali-Live-Patch"
 
 #Building
 echo "Start script now?"
