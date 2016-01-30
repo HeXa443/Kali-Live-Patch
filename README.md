@@ -23,3 +23,4 @@ Installation:
 Won't work?
 -Try to use: "chmod +x kali_live_patch_hexa.sh" in the directory of the file
 
+
